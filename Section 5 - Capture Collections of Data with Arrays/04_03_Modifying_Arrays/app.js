@@ -3,7 +3,7 @@ let shoppingList = [ 'Cheddar Cheese', '2% Milk' ];
 //To change 2% Milk to Whole Milk
 shoppingList[1] = 'Whole Milk';
 
-//To add Ice Cream to the end
+//To add Ice Cream to the end, you have to know the end index
 //Only works if array is 2 items long...
 shoppingList[2] = 'Ice Cream';
 
