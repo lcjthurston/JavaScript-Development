@@ -3,6 +3,8 @@ let people = [ 'Mrs. Robsinson', 'Angie', 'Jolene', 'Maggie May', 'Roxanne' ];
 people.sort();
 // ["Angie", "Jolene", "Maggie May", "Mrs. Robsinson", "Roxanne"]
 
+
+// NOTE: array.sort() is NOT a numeric sort.
 let nums = [ 34, 10, 100000, 67, 99 ];
 
 nums.sort();

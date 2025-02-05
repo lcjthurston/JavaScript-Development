@@ -1,3 +1,4 @@
+// You can nest arrays inside arrays.
 const animalPairs = [
 	[ 'doe', [ 'buck', 'stag' ] ],
 	[ 'ewe', 'ram' ],
