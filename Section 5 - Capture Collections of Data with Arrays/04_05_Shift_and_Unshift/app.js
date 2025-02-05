@@ -1,3 +1,4 @@
+// shift/unshift removes/adds to start of array
 let dishesToDo = [ 'large platter' ];
 
 //to add to the start:

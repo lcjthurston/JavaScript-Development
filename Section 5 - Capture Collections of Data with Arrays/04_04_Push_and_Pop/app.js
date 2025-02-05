@@ -1,3 +1,5 @@
+// push/pop add/remove to end of array
+
 let topSongs = [
 	'First Time Ever I Saw Your Face',
 	'God Only Knows',
