@@ -40,28 +40,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ////////////////////////////////////////////////////////////////////////////////
 
-// // Example Syntax for Async and Await
-// async function fetch_data() {
-// 	let response = await fetch('https://api.example.com');
-// 	let data = await response.json();
-// 	console.log(data);
-// }
+// Example Syntax for Async and Await
+async function fetch_data() {
+	let response = await fetch('https://api.example.com');
+	let data = await response.json();
+	console.log(data);
+}
 
-// // Example demonstrating async/await with fetch
-// async function fetchData() {
-//     try {
-//         let response = await fetch('https://api.example.com');
-//         if (!response.ok) {
-//             throw new Error(`HTTP error! Status: ${response.status}`);
-//         }
-//         let data = await response.json();
-//         console.log(data);
-//     } catch (error) {
-//         console.error('Error fetching data:', error);
-//     }
-// }
+// Example demonstrating async/await with fetch
+async function fetchData() {
+    try {
+        let response = await fetch('https://api.example.com');
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        let data = await response.json();
+        console.log(data);
+    } catch (error) {
+        console.error('Error fetching data:', error);
+    }
+}
 
-// // Call the function
-// document.addEventListener('DOMContentLoaded', () => {
-//     fetchData();
-// });
+// Call the function
+document.addEventListener('DOMContentLoaded', () => {
+    fetchData();
+});
